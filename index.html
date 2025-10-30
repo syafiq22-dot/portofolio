@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Junior Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+    <div class="container">
+        <div class="logo">
+            <span class="logo-bracket">&lt;</span>
+            <img src="logo.jpg" alt="Logo" class="logo-image">
+            <span class="logo-bracket">&gt;</span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title fade-in">
+                    Hi, I'm <span class="highlight">Syafiq Muhammad Fauzi</span>
+                </h1>
+                <p class="hero-subtitle fade-in-delay">Junior Frontend Developer</p>
+                <p class="hero-description fade-in-delay-2">
+                    Passionate about creating beautiful, responsive, and user-friendly web experiences
+                </p>
+                <div class="hero-buttons fade-in-delay-3">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-ring"></div>
+                        <img src="foto.jpg" alt="Your Profile" class="profile-img">
+                        <div class="status-indicator"></div>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Available for Work</h3>
+                        <div class="tech-stack">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">PHP</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Halo! Saya seorang Junior Frontend Developer yang passionate dalam menciptakan 
+                    website yang menarik dan fungsional. Saya selalu eager to learn teknologi baru 
+                    dan terus mengasah skill di dunia web development.
+                </p>
+                <p>
+                    Saya percaya bahwa kombinasi antara design yang baik dan code yang clean 
+                    adalah kunci untuk menciptakan user experience yang luar biasa. Saat ini 
+                    saya fokus untuk mendalami JavaScript modern dan framework populer.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3 class="stat-number">1+</h3>
+                        <p class="stat-label">Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">3+</h3>
+                        <p class="stat-label">Programming Languages</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">100%</h3>
+                        <p class="stat-label">Dedication</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3>HTML5</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80"></div>
+                </div>
+                <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <h3>CSS3</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="75"></div>
+                </div>
+                <span class="skill-percentage">75%</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-js"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70"></div>
+                </div>
+                <span class="skill-percentage">70%</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-php"></i>
+                </div>
+                <h3>PHP</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80"></div>
+                </div>
+                <span class="skill-percentage">80%</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects" id="projects">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Project Name 1</h3>
+                    <p>Deskripsi singkat tentang project pertama kamu. Teknologi yang digunakan dan fitur utamanya.</p>
+                    <div class="project-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p class="contact-description">
+                Interested in working together or have a question? Feel free to reach out!
+            </p>
+            <div class="contact-info">
+                <a href="mailto:fieqmuhammad8@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>fieqmuhammad8@gmail.com</span>
+                </a>
+                <a href="https://instagram.com/syafiqmf_" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <span>@syafiqmf_</span>
+                </a>
+                <a href="https://www.linkedin.com/in/syafiq-muhammad-364a7a371/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>Syafiq Muhammad Fauzi</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; <?php echo date('Y'); ?> Syafiq Muhammad Fauzi</p>
+            <div class="social-links">
+                <a href="mailto:fieqmuhammad8@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/syafiq-muhammad-364a7a371/" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/syafiqmf_" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
